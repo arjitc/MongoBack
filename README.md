@@ -12,6 +12,7 @@ You may or may not have to install mongodump as well.
 
 Set all the variables as required in the script and then,
 
+    chmod +x mongoback.sh
     sh mongoback.sh
 
 Final notes
@@ -32,4 +33,6 @@ You'll then get someting like
     Warning: Permanently added 'xx.xxxx.xxx,xxx.xxx.xxx.xxx' (RSA) to the list of known hosts.
     root@xxx.xxx.xxx.xxx's password:
 
-Now, just exit it by hitting CTRL + C and then try sh dump.sh agian.
+Now, just exit it by hitting CTRL + C and then try,
+
+    sh mongoback.sh
